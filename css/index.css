@@ -131,7 +131,6 @@ button:hover{
     width:90%;
     margin:4% auto 2% auto;
 }
-
 .artist{
     width:40%;
     text-align:center;
@@ -150,7 +149,36 @@ button:hover{
 
 /* Responsive Styles */
 @media(max-width: 500px){
-    
+    /* Header Styles */
+    header nav{
+        /* border: 1px solid blue; */
+        width: 50%;
+    }
+    header nav a{
+        font-size: 2rem;
+        /* border: 1px solid red; */
+    }
+    /* Title Section Styles */
+    .title-container div{
+        width: 100%;
+        background-size: cover;
+    }
+    .title-container h1{
+        font-size: 4rem;
+    }
+    button{
+        font-size: 1.8rem;
+        padding: 1% 2%;
+        box-shadow: none;
+    }
+    /* Artist Section Styles */
+    .artists-container{
+        flex-direction: column;
+    }
+    .artist{
+        width: 70%;
+        margin: 0 auto;
+    }
     
     
 }
